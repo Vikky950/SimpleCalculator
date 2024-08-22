@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(to left bottom,
+    lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    background-color: aliceblue;
+}
+
+.myspan{
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+    
+}
+.container{
+    border: 7px solid;
+    border-color:gray;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 0;
+}
+
+    
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+    color: rgb(35, 68, 68);
+}
+::placeholder{
+    color:gray;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.result3{
+    color: red;
+    border:red;
+}
+.box1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    background-color: azure;
+    cursor: pointer;
+}
+.box2{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: azure;
+    cursor: pointer;
+}
+.but1 , .but2 , .but3 , .but4 , .but5{
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: azure;
+}
+#finalr{
+    font-size: 15px;
+    color: gray;
+} 
+:hover{
+    background-color: azure;
+}
+
+.heading{
+    
+    display: flex;
+    align-content: top;
+    justify-content: start;
+    margin-bottom: 20px;
+    color:gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
